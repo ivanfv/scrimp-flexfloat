@@ -22,5 +22,10 @@ Details of Flexfloat library can be found at:
              IEEE Transactions on Computer-Aided Design of Int. Cir. and Systems
     - FlexFloat repository: https://github.com/oprecomp/flexfloat    
 
+Build:
+======
+`./compile_flexfloat.sh`
+
+`make`
 
 
