@@ -28,6 +28,10 @@ Details of Flexfloat library can be found at:
 
 Build:
 ======
+* Fetch FlexFloat library
+
+`git submodule update --init --recursive`
+
 * Compile the FlexFloat library using the script:
 
 `./compile_flexfloat.sh`
