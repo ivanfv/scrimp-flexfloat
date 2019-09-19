@@ -1,21 +1,6 @@
 # scrimp-flexfloat
-SCRIMP FlexFloat Benchmark
 
-
-![alt text](https://github.com/ivanfv/scrimp-flexfloat/blob/master/plots/random_anomaly_zoom_final.png)
-
-
-
-
-                 ███████╗ ██████╗██████╗ ██╗███╗   ███╗██████
-                 ██╔════╝██╔════╝██╔══██╗██║████╗ ████║██╔══██╗
-                 ███████╗██║     ██████╔╝██║██╔████╔██║██████╔╝
-                 ╚════██║██║     ██╔══██╗██║██║╚██╔╝██║██╔═══╝ 
-                 ███████║╚██████╗██║  ██║██║██║ ╚═╝ ██║██║ 
-                 ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚═╝     
-                 +-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+
-                 | F l e x F l o a t        B e n c h m a r k |
-                 +-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+
+![alt text](https://github.com/ivanfv/scrimp-flexfloat/blob/master/logo.png)
 
 SCRIMP FlexFloat benchmark provides a precision exploation tool for time series
 analysis using Matrix Profile. This program allows changing the number of bits
