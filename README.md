@@ -28,11 +28,11 @@ Details of Flexfloat library can be found at:
 
 Build:
 ======
-Compile the FlexFloat library using the script:
+* Compile the FlexFloat library using the script:
 
 `./compile_flexfloat.sh`
 
-Make SCRIMP FlexFloat:
+* Make SCRIMP FlexFloat:
 
 `make`
 
@@ -40,37 +40,36 @@ Make SCRIMP FlexFloat:
 Run:
 ======
 
-
-*Example random time series with one anomaly:
+* Example random time series with one anomaly:
 
 `make random_anomaly`
 
 
-*Example random time series with two similar subsequences:
+* Example random time series with two similar subsequences:
 
 `make random_similarity`
 
 
 Performance:
 ======
-Using a server equipped with two Intel Xeon Gold 6154 (72 threads) and 384 GB of DDR4 memory, computing a 32,768 elements time series takes approximately 4 minutes.
+* Using a server equipped with two Intel Xeon Gold 6154 (72 threads) and 384 GB of DDR4 memory, computing a 32,768 elements time series takes approximately 4 minutes.
 
 
 
 Plot Results:
 ======
-*Go to scrimp_ff folder and plot desired time series:
+* Go to scrimp_ff folder and plot desired time series:
 
 `python plot.py random_anomaly`
 
-*Example output:
+* Example output:
 
 ![alt text](https://github.com/ivanfv/scrimp-flexfloat/blob/master/plots/random_anomaly_reduced.png)
 
 
 Adding new time series:
 ======
-*To test other time series, add them to the time series folder and create a config file with the same name and .cfg extension with the proper content. This is an example config file:
+* To test other time series, add them to the time series folder and create a config file with the same name and .cfg extension with the proper content. This is an example config file:
 
 
 ```
