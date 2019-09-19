@@ -53,6 +53,9 @@ Run:
 
 `make random_similarity`
 
+* Run manually using program arguments:
+
+`./scrimp_ff timeseries.txt window_size num_threads scale_factor`
 
 Performance:
 ======
