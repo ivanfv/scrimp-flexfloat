@@ -1,8 +1,8 @@
 all:
-	gcc -O3 ./scrimp/scrimp.c -o ./scrimp/scrimp -L./flexfloat/build -lflexfloat -lm -fopenmp
+	gcc -O3 ./scrimp_ff/scrimp_ff.c -o ./scrimp_ff/scrimp_ff -L./flexfloat/build -lflexfloat -lm -fopenmp
 clean:
-	rm ./scrimp/scrimp
+	rm ./scrimp_ff/scrimp_ff
 random_similarity:
-	./scrimp/scrimp random_similarity.txt 50 72 1
+	./scrimp_ff/scrimp_ff random_similarity.txt 50 4 1
 random_anomaly:
-	./scrimp/scrimp random_anomaly.txt 50 72 1
+	./scrimp_ff/scrimp_ff random_anomaly.txt 50 4 1
