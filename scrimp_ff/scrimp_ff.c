@@ -79,16 +79,6 @@ The code will generate one output file (e.g. result_taxi.csv)
 #define PATH_CFG "./configs/"
 #define PATH_RESULT "./results/result_"
 #define EXCLUSION_FACTOR 4
-/*
-#define EXP 7 
-#define MANTISSA 20 
-#define DOTP_EXP 7 
-#define DOTP_MANTISSA 20 
-#define PROF_EXP 5 
-#define PROF_MANTISSA 2 
-#define STATS_EXP 6
-#define STATS_MANTISSA 15
-*/
 
 
 unsigned dist_exp;
