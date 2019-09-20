@@ -80,7 +80,6 @@ The code will generate one output file (e.g. result_taxi.csv)
 #define PATH_RESULT "./results/result_"
 #define EXCLUSION_FACTOR 4
 
-
 unsigned dist_exp;
 unsigned dist_man;
 unsigned prof_exp;
@@ -89,7 +88,6 @@ unsigned dotp_exp;
 unsigned dotp_man;;
 unsigned stats_exp;
 unsigned stats_man;
-
 
 static struct timeval tm1;
 
